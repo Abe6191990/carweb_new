@@ -1,4 +1,5 @@
 node('appserver_3120_60')
+{
 def app
 stage('Cloning Git')
 {
@@ -20,4 +21,5 @@ stage('Deploy')
 {
     sh "docker-compose down"
     sh "docker-compose up -d"
+}
 }
