@@ -11,7 +11,7 @@ stage('Build-and-Tag')
 {
    /*  This builds the actual image;
       * This is synonymous to docker  build on the command line */
-    app.docker.build('abe6191990/car_web')
+    app = docker.build('abe6191990/car_web')
 }
 stage('Post-to-dockerhub')
 {
