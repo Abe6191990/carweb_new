@@ -4,7 +4,7 @@ def app
 stage('Cloning Git')
 {
     /* Lets make sure we have a repository to checkout SCM */
-    
+   checkout scm  
 }
 
 stage('Build-and-Tag')
