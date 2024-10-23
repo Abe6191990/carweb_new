@@ -1,7 +1,7 @@
 version: '2.4'
 services:
 apache:
-  image: 'abe6191990/carweb_repo'
+  image: 'abe6191990/car_web'
   ports:
   - '80:80'
   volumes:
