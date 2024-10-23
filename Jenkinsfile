@@ -1,5 +1,6 @@
 node('appserver_3120_60')
 {
+def app
 stage('Cloning Git')
 {
     /* Lets make sure we have a repository to checkout SCM */
